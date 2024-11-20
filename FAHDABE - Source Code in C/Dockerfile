@@ -93,7 +93,7 @@ RUN    apt install -y git
 #WORKDIR /home/fahdabeUser
 
 # download and set up FAHDABE
-RUN    git clone https://arthursandorvk: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@github.com/arthursandorvk/FAHDABE.git
+RUN    git clone https://arthursandorvk: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@github.com/arthursandorvk/FAHDABE.git
 
 RUN    cd FAHDABE \
     && ls \
